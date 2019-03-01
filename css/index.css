@@ -1,0 +1,224 @@
+body {
+  background-image: url("../Images/wrapper_bg.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat; }
+
+.top-fixed-header {
+  background: linear-gradient(to bottom, #262626 0, #0f0f0f 100%);
+  padding: 0; }
+
+.sign-in-block {
+  padding: 6px 10px 6px 15px;
+  border-left: 1px solid #171616;
+  border-right: 1px solid #171616;
+  background: linear-gradient(to bottom, #333 0, #101010 100%); }
+  .sign-in-block .register-button {
+    color: #5e9753;
+    margin-right: 10px;
+    font-size: 13px;
+    text-decoration: underline; }
+
+.login-form .login-input {
+  height: 25px;
+  width: 150px;
+  background: #404040;
+  color: #b4b4b4;
+  padding: 5px;
+  font-size: 12px;
+  outline: 0;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 2px 2px 3px 0 rgba(0, 0, 0, 0.59);
+  box-shadow: inset 2px 2px 3px 0 rgba(0, 0, 0, 0.59); }
+.login-form .login-button {
+  height: 25px;
+  font-size: 13px;
+  border: 1px solid #061c04;
+  margin: 0;
+  background: #12500d;
+  outline: 0;
+  color: #fff;
+  -webkit-border-radius: 3px;
+  border-radius: 3px; }
+
+.nav-bar-container {
+  margin-top: 130px; }
+
+.nav-bar {
+  margin: 0;
+  padding: 0; }
+  .nav-bar .nav-bar-item {
+    list-style-type: none;
+    text-align: center;
+    border-left: 1px solid #205b01;
+    border-bottom: 1px solid #44881d;
+    width: 100%;
+    position: relative; }
+    .nav-bar .nav-bar-item .menu-arrow {
+      background-image: url("../Images/menu_arrow.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      display: none;
+      width: 16px;
+      height: 18px;
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      transform: translateY(-50%); }
+    .nav-bar .nav-bar-item.active .nav-bar-item-link {
+      background: linear-gradient(to bottom, #002404 0, #000 100%);
+      box-shadow: 6px 1px 20px 0px black;
+      -webkit-box-shadow: 6px 1px 20px 0px black;
+      -moz-box-shadow: 6px 1px 20px 0px black; }
+    .nav-bar .nav-bar-item.active .menu-arrow {
+      display: block; }
+    .nav-bar .nav-bar-item:hover .menu-arrow {
+      display: block; }
+    .nav-bar .nav-bar-item .nav-bar-item-link {
+      color: white;
+      font-weight: bold;
+      background: #3e8f02;
+      background: linear-gradient(to bottom, #3e8f02 0, #155804 100%);
+      padding: 10px;
+      width: 100%;
+      display: block;
+      text-decoration: none; }
+
+.main {
+  background: #d8d8d8;
+  padding: 20px 10px;
+  border-radius: 10px; }
+
+.iframe-image {
+  background-image: url("../Images/left-block.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%; }
+
+.online-game-image {
+  background-image: url("../Images/football-field.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px; }
+
+.online-game-titles {
+  display: flex;
+  width: 100%;
+  padding: 3px 10px;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #3c8e02 1%, #184902 100%);
+  border-radius: 5px 5px 0 0; }
+
+.left-block {
+  color: white;
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: 400;
+  display: block;
+  padding: 3px;
+  border-radius: 3px; }
+
+.right-block {
+  color: white;
+  padding: 3px;
+  background-color: #9b300c; }
+
+.online-games-list table {
+  width: 100%; }
+  .online-games-list table tr {
+    background: linear-gradient(to bottom, #f5f5f5 0, #e4e4e4 100%); }
+    .online-games-list table tr td {
+      padding: 2px; }
+.online-games-list .team-name {
+  width: 40%; }
+.online-games-list .right-column {
+  text-align: right; }
+.online-games-list .games-score {
+  width: 20%;
+  text-align: center;
+  border-left: 2px solid white;
+  border-right: 2px solid white; }
+
+.online-games-body {
+  height: 350px;
+  overflow: auto; }
+
+.statistics-managers-top {
+  margin-top: 20px; }
+
+.statistics-body {
+  background-color: white;
+  height: 135px; }
+  .statistics-body tr {
+    background: linear-gradient(to bottom, #f5f5f5 0, #e4e4e4 100%); }
+    .statistics-body tr td {
+      padding: 2px; }
+
+.statistics-block-title {
+  color: white;
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: 400;
+  background: linear-gradient(135deg, #3c8e02 1%, #184902 100%);
+  width: 100%;
+  display: block;
+  padding: 5px;
+  border-radius: 3px 3px 0 0; }
+
+.about-sport {
+  width: 80%;
+  border-right: 1px solid white; }
+
+.count {
+  width: 20%;
+  text-align: center; }
+
+.top-managers-body {
+  background-color: white;
+  height: 135px;
+  width: 100%; }
+  .top-managers-body tr {
+    background: linear-gradient(to bottom, #f5f5f5 0, #e4e4e4 100%); }
+    .top-managers-body tr td {
+      padding: 2px; }
+
+.top-managers-name {
+  width: 50%; }
+
+.top-managers-vip {
+  width: 10%;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  color: white;
+  text-align: center; }
+  .top-managers-vip span {
+    background-color: #9b300c;
+    border-radius: 2px;
+    padding: 2px;
+    font-size: 13px; }
+
+.top-managers-number {
+  width: 40%;
+  text-align: center; }
+
+.top-managers-title {
+  color: white;
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: 400;
+  background: linear-gradient(135deg, #3c8e02 1%, #184902 100%);
+  width: 100%;
+  display: block;
+  padding: 5px;
+  border-radius: 3px 3px 0 0; }
+
+/*# sourceMappingURL=index.css.map */
